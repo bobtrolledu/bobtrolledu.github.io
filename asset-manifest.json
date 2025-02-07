@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.35bcc2b0.css",
+    "main.js": "/portfolio/static/js/main.0a7e412b.js",
+    "static/js/488.4a836554.chunk.js": "/portfolio/static/js/488.4a836554.chunk.js",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.2bcde0438a5feddac61f.jpg",
+    "static/media/jetbrains-mono-latin-400-normal.woff": "/portfolio/static/media/jetbrains-mono-latin-400-normal.0fc70aa4dfe4d16d7073.woff",
+    "static/media/jetbrains-mono-latin-400-normal.woff2": "/portfolio/static/media/jetbrains-mono-latin-400-normal.d04352f240062b100fba.woff2",
+    "static/media/jetbrains-mono-latin-ext-400-normal.woff": "/portfolio/static/media/jetbrains-mono-latin-ext-400-normal.8cef58685fa3e568038c.woff",
+    "static/media/jetbrains-mono-latin-ext-400-normal.woff2": "/portfolio/static/media/jetbrains-mono-latin-ext-400-normal.e83b764e84e73968db26.woff2",
+    "static/media/jetbrains-mono-cyrillic-400-normal.woff": "/portfolio/static/media/jetbrains-mono-cyrillic-400-normal.5b36ec97fd93af26fc0c.woff",
+    "static/media/jetbrains-mono-greek-400-normal.woff": "/portfolio/static/media/jetbrains-mono-greek-400-normal.449c5e33a2bb82fa67e2.woff",
+    "static/media/jetbrains-mono-vietnamese-400-normal.woff": "/portfolio/static/media/jetbrains-mono-vietnamese-400-normal.fac3ebe1fb24270f2e31.woff",
+    "static/media/jetbrains-mono-cyrillic-400-normal.woff2": "/portfolio/static/media/jetbrains-mono-cyrillic-400-normal.f69e1e24f04a6ce942c0.woff2",
+    "static/media/jetbrains-mono-greek-400-normal.woff2": "/portfolio/static/media/jetbrains-mono-greek-400-normal.3a4578ae9901384175e2.woff2",
+    "static/media/jetbrains-mono-vietnamese-400-normal.woff2": "/portfolio/static/media/jetbrains-mono-vietnamese-400-normal.aa664ef15f2e285e9dda.woff2",
+    "static/media/jetbrains-mono-cyrillic-ext-400-normal.woff": "/portfolio/static/media/jetbrains-mono-cyrillic-ext-400-normal.fe91ef32cce4c8826b65.woff",
+    "static/media/jetbrains-mono-cyrillic-ext-400-normal.woff2": "/portfolio/static/media/jetbrains-mono-cyrillic-ext-400-normal.7347c7bfed47f1ef0b25.woff2",
+    "index.html": "/portfolio/index.html",
+    "main.35bcc2b0.css.map": "/portfolio/static/css/main.35bcc2b0.css.map",
+    "main.0a7e412b.js.map": "/portfolio/static/js/main.0a7e412b.js.map",
+    "488.4a836554.chunk.js.map": "/portfolio/static/js/488.4a836554.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35bcc2b0.css",
+    "static/js/main.0a7e412b.js"
+  ]
+}
