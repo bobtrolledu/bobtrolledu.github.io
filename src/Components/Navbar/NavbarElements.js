@@ -6,40 +6,40 @@ import "@fontsource/jetbrains-mono/400.css"; // Specify weight
 export const Nav = styled.nav`
     background: #151515;
     height: 85px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-flow: column;  
     align-items: center;
-    padding: 0.2rem calc((130vw) / 2);
-    position: fixed;  /* Make it fixed */
-    top: 0;  /* Stick to the top */
+    padding: 0 5%; 
+    position: fixed;
+    top: 0;
+    width: 100%;    
     z-index: 12;
 `;
 
-export const Logo = styled.img`
+export const NavLogoContainer = styled.div`
     display: flex;
-    height: 60px; /* Adjust the logo size */
-    width: 60px; /* Ensure the logo is circular */
-    border-radius: 50%; /* Make it a circle */
-    object-fit: cover; /* Ensure the image fills the circle without distortion */
+    align-items: center;
+    gap: 10px; /* Controls the space between logo and logoname */
+`;
+
+export const Logo = styled.img`
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
     cursor: pointer;
-    margin-right: 1150px; /* Space between the logo and the menu */
-    margin-left: -1200px; /* Ensures the logo stays on the left */
 `;
 
 export const LogoName = styled(Link)`
     color: #808080;
     display: flex;
-    align-items: center;
+    align-items: start;
     text-decoration: none;
-    padding: 0 1rem;
-    height: 100%;
-    cursor: pointer;
     font-family: 'JetBrains Mono', monospace;
     font-size: 1.2rem;
-    margin-right: 1000px; /* Space between the logo and the menu */
-    margin-left: -1150px; /* Ensures the logo stays on the left */
+    padding: 20px;
 `;
-
 
 export const NavLink = styled(Link)`
     color: #808080;
@@ -47,40 +47,18 @@ export const NavLink = styled(Link)`
     align-items: center;
     text-decoration: none;
     padding: 0 1rem;
-    height: 100%;
-    cursor: pointer;
     font-family: 'JetBrains Mono', monospace;
     font-size: 1.2rem;
-    
+
     &.active {
         color: #ffffff;
-    }
-`;
-
-export const Bars = styled(FaBars)`
-    display: none;
-    color: #808080;
-    @media screen and (max-width: 768px) {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(-100%, 75%);
-        font-size: 1.8rem;
-        cursor: pointer;
     }
 `;
 
 export const NavMenu = styled.div`
     display: flex;
     align-items: center;
-    margin-right: -24px;
-    /* Second Nav */
-    /* margin-right: 24px; */
-    /* Third Nav */
-    /* width: 100vw;
-  white-space: nowrap; */
-    @media screen and (max-width: 768px) {
-        display: none;
-    }
+    margin-left: auto;
+    padding-right: 8rem;
 `;
+
