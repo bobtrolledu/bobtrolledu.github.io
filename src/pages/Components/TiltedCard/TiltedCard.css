@@ -38,7 +38,7 @@
 }
 
 .tilted-card-img {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   object-fit: cover;
@@ -48,7 +48,7 @@
 }
 
 .tilted-card-overlay {
-  position: absolute;
+  position: inherit;
   top: 0;
   left: 0;
   z-index: 2;
@@ -62,7 +62,7 @@
   left: 0;
   top: 0;
   border-radius: 4px;
-  background-color: #fff;
+  background-color: #000000;
   padding: 4px 10px;
   font-size: 10px;
   color: #2d2d2d;

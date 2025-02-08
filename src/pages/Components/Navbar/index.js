@@ -20,13 +20,13 @@ const Navbar = () => {
                 </LogoName>
             </NavLogoContainer>
             <NavMenu>
-                <NavLink to="/about" >
+                <NavLink to="/About" >
                     .About()
                 </NavLink>
                 <NavLink to="/Experience" activeStyle>
                     .Experience()
                 </NavLink>
-                <NavLink to="/projects" activeStyle>
+                <NavLink to="/Projects" activeStyle>
                     .Projects()
                 </NavLink>
                 <NavLink to="/Contact" activeStyle>

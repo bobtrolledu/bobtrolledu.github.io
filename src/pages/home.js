@@ -2,9 +2,7 @@ import React from "react";
 import SplitText from './TextAnimations/SplitText/SplitText.jsx';
 import Waves from './Backgrounds/Waves/Waves.jsx';
 
-const handleAnimationComplete = () => {
-    console.log('All letters have animated!');
-};
+const handleAnimationComplete = () => {};
 
 const Home = () => {
     return (
@@ -32,19 +30,17 @@ const Home = () => {
                         easing="easeOutCubic"
                         threshold={0.2}
                         rootMargin="-50px"
-                        onLetterAnimationComplete={handleAnimationComplete}
                     />
                 </div>
                 <div className="roboto-subheading">
                     <SplitText
-                        text="Computer Engineering @ The University of British Columbia"
+                        text="Computer Engineering @ UBC"
                         delay={30}
                         animationFrom={{opacity: 0, transform: 'translate3d(0,50px,0)'}}
                         animationTo={{opacity: 1, transform: 'translate3d(0,0,0)'}}
                         easing="easeOutCubic"
                         threshold={0.2}
                         rootMargin="-50px"
-                        onLetterAnimationComplete={handleAnimationComplete}
                     />
                 </div>
             </header>
